@@ -5,7 +5,7 @@ import { useState } from "react";
 function Navbar() {
   const { favorites } = useFavoriteContext();
   const { pathname } = useLocation();
-  const [showLinks, setShowLinks] = useState(true);
+  const [showLinks, setShowLinks] = useState(false);
 
   return (
     <nav className="bg-green-900 px-[40px] h-[60px] flex justify-between items-center relative">

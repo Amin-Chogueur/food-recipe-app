@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import CategoryCard from "../components/categoryCard";
+import CategoryCard from "../components/CategoryCard";
 import { Outlet } from "react-router-dom";
 
 function Categories() {
